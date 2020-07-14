@@ -5,7 +5,7 @@ Emperical Risk Minimisation, Adversarial Risk Minimisation, Mixup
 - PyTorch 1.4+
 
 ## Overview
-Given a highly imbalanced dataset, I wanted to investigate how adversarial training might help in increasing performance. Additionally I also compare it with mixup augmentation. Project Gradient Descent (l-infinity ball, untargeted) along with Focal loss is used to perform adversarial training. So in total 6 different ways are used to train the network.
+Given a highly imbalanced dataset, I wanted to investigate how adversarial training might help in increasing performance. Additionally I also compare it with mixup augmentation. Projected Gradient Descent (l-infinity ball, untargeted) along with Focal loss is used to perform adversarial training. So in total 6 different ways are used to train the network.
 
 1. <b>Emperical Risk Minimisation</b>
     - Vanilla CCE Loss with SGDM
