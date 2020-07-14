@@ -29,5 +29,5 @@ The dataset has 23 attributes. Some of the important features are:
 (Other columns are linear combinations of u, g, r, i, z, nuv_mag) 
 
 ## Experiments
-Since this dataset was provided as a part of class project and was collected by our instructor, I don't really know the bounds or the distribution of the data. So i just took a shot for ϵ (max perturbation) and α (step size for each iteration) for PGD. Hence there might be better values for performing adversarial training. For Focal loss recommended default value γ = 2 is used.
+Since this dataset was provided as a part of class project and was collected by our instructor, I don't really know the bounds or the distribution of the data. So i just took a shot for ϵ (max perturbation) for PGD. Hence there might be better values for performing adversarial training. For Focal loss recommended default value γ = 2 is used.
 
